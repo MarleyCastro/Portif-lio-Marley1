@@ -84,7 +84,7 @@ nav > a:hover {
 
 .hero-img {
     position: absolute;
-
+    background: #3DDC97 url('img/foto-perfil.png') center no-repeat;
     background-size: cover;
     border-radius: 50%;
     width: 20rem;
