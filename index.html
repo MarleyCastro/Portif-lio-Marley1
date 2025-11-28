@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Marley Castro - Desenvolvedor Full Stack especializado em criar soluções web inovadoras">
+    <meta name="keywords" content="desenvolvedor, full stack, portfolio, web developer, react, java">
+    <meta name="author" content="Marley Castro">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Marley Castro | Full Stack Developer">
+    <meta property="og:description" content="Portfolio profissional de desenvolvimento web">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <title>Marley Castro | Full Stack Developer</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Mar<span>ley</span></div>
+        <nav id="nav">
+            <a href="#home">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="hero-label">👋 Bem-vindo ao meu portfólio</span>
+            <h1>Olá, eu sou <br><span class="gradient-text">Desenvolvedor Full Stack</span></h1>
+            <p>Sou Marley Castro, desenvolvedor apaixonado por tecnologia com mais de 2 anos de experiência criando
+                soluções web inovadoras. Especializado em UI/UX Design e desenvolvimento Full Stack.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <div class="image-border"></div>
+                <img src="img/profile/foto-perfil.png" alt="Marley Castro" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header">
+            <p class="section-label">Sobre Mim</p>
+            <h2 class="section-title">Quem sou eu</h2>
+            <p class="section-subtitle">
+                Desenvolvedor de tecnologia com mais de 2 anos de dedicação intensa à área,
+                sempre motivado pela curiosidade e paixão por inovação. Experiência prática em
+                front-end com HTML, CSS e JavaScript, especializado em UI/UX Design e design
+                responsivo. Atualmente expandindo conhecimentos em back-end com Java, SQL e
+                outras tecnologias para me tornar um desenvolvedor full-stack completo.
+            </p>
+        </div>
+    </section>
+
+    <!-- Hard Skills Section -->
+    <section id="skills">
+        <div class="section-header">
+            <p class="section-label">Minhas Habilidades</p>
+            <h2 class="section-title">Hard Skills</h2>
+        </div>
+        <div class="skills-grid" id="skills-container"></div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section id="soft-skills">
+        <div class="section-header">
+            <p class="section-label">Competências</p>
+            <h2 class="section-title">Soft Skills</h2>
+        </div>
+        <div class="skills-grid" id="soft-skills-container"></div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="section-header">
+            <p class="section-label">Meus Trabalhos</p>
+            <h2 class="section-title">Portfólio</h2>
+        </div>
+        <div class="portfolio-grid" id="portfolio-container"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">
+            <p class="section-label">Entre em Contato</p>
+            <h2 class="section-title">Vamos Trabalhar Juntos</h2>
+        </div>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label>Nome Completo</label>
+                    <input type="text" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label>WhatsApp</label>
+                    <input type="tel" placeholder="(00) 00000-0000" required>
+                </div>
+                <div class="form-group">
+                    <label>Tipo de Projeto</label>
+                    <select required>
+                        <option value="">Selecione uma opção</option>
+                        <option>Landing Page</option>
+                        <option>E-commerce</option>
+                        <option>Sistema Web</option>
+                        <option>Aplicativo Mobile</option>
+                        <option>Outro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Mensagem</label>
+                    <textarea rows="5" placeholder="Descreva seu projeto..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Marley Castro | Full Stack Developer. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5511976168002?text=Olá!%20Vim%20do%20seu%20portfólio%20e%20gostaria%20de%20conversar"
+        class="whatsapp-float" target="_blank" aria-label="Contato via WhatsApp">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M16 0C7.164 0 0 7.164 0 16c0 2.825.738 5.607 2.137 8.069L.057 31.496l7.648-2.006A15.956 15.956 0 0 0 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.333A13.296 13.296 0 0 1 8.8 27.16l-.474-.281-4.918 1.289 1.312-4.79-.31-.491A13.269 13.269 0 0 1 2.667 16c0-7.364 5.97-13.333 13.333-13.333S29.333 8.636 29.333 16 23.364 29.333 16 29.333z"
+                fill="#fff" />
+            <path
+                d="M23.547 19.459c-.368-.184-2.175-1.073-2.511-1.196-.337-.123-.582-.184-.827.184-.245.368-.95 1.196-1.165 1.441-.214.245-.429.276-.797.092-.368-.184-1.554-.573-2.959-1.825-1.094-.975-1.833-2.179-2.048-2.547-.214-.368-.023-.567.161-.75.166-.165.368-.429.552-.644.184-.214.245-.368.368-.613.123-.245.061-.46-.031-.644-.092-.184-.827-1.993-1.134-2.729-.299-.717-.603-.62-.827-.632-.214-.011-.46-.013-.705-.013s-.644.092-1.072.46c-.429.368-1.647 1.534-1.647 3.742 0 2.208 1.686 4.34 1.921 4.637.235.297 3.315 5.062 8.032 7.098 1.122.484 1.999.773 2.682.99.1126.355 2.042.628 3.095.38 1.053-.247 2.175-1.003 2.482-1.971.307-.968.307-1.797.214-1.971-.092-.184-.337-.276-.705-.46z"
+                fill="#fff" />
+        </svg>
+        <span class="whatsapp-tooltip">Fale Comigo!</span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+
+</body>
+
+</html>
