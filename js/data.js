@@ -257,7 +257,7 @@ const FALLBACK_DATA = {
       "date": "2024-01"
     }
   ],
-  "contact": {
+    "contact": {
     "email": "marley.castro@example.com",
     "phone": "+55 11 97616-8002",
     "whatsapp": "5511976168002",
@@ -268,6 +268,7 @@ const FALLBACK_DATA = {
   "personal": {
     "name": "Marley Castro",
     "title": "Full Stack Developer",
+    "profileImage": "img/profile/foto-marley.png",
     "bio": "Desenvolvedor de tecnologia com mais de 2 anos de dedicação intensa à área, sempre motivado pela curiosidade e paixão por inovação.",
     "yearsOfExperience": 2,
     "projectsCompleted": 12,
