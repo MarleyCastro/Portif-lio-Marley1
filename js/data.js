@@ -124,6 +124,17 @@ const FALLBACK_DATA = {
     }
   ],
   "projects": [
+        {
+      "id": 0,
+      "title": "TopCars",
+      "description": "Sistema de carros usados",
+      "image": "img/portfolio/top-cars.png",
+      "link": "https://marleycastro.github.io/Imers-o-Dev-com-Google-Gemini-10-Edi-o/",
+      "github": "https://github.com/MarleyCastro/Imers-o-Dev-com-Google-Gemini-10-Edi-o",
+      "tags": ["HTML", "CSS", "JavaScript", "JSON", "IA"],
+      "featured": true,
+      "date": "2025-11"
+    },
     {
       "id": 1,
       "title": "Sistema de Estacionamento",
@@ -133,7 +144,7 @@ const FALLBACK_DATA = {
       "github": "https://github.com/MarleyCastro/sistema-estacionamento",
       "tags": ["HTML", "CSS", "JavaScript"],
       "featured": true,
-      "date": "2024-12"
+      "date": "2025-11"
     },
     {
       "id": 2,
@@ -144,7 +155,7 @@ const FALLBACK_DATA = {
       "github": "https://github.com/MarleyCastro/JobWoker",
       "tags": ["Node.js", "Express", "MongoDB"],
       "featured": true,
-      "date": "2024-11"
+      "date": "2025-11"
     },
     {
       "id": 3,
@@ -155,7 +166,7 @@ const FALLBACK_DATA = {
       "github": "https://github.com/MarleyCastro/Chat-Real-Time",
       "tags": ["Socket.io", "React", "Node.js"],
       "featured": true,
-      "date": "2024-10"
+      "date": "2025-10"
     },
     {
       "id": 4,
@@ -166,7 +177,7 @@ const FALLBACK_DATA = {
       "github": "https://github.com/MarleyCastro/Tech-Marcket",
       "tags": ["React", "API", "CSS"],
       "featured": false,
-      "date": "2024-09"
+      "date": "2025-09"
     },
     {
       "id": 5,
